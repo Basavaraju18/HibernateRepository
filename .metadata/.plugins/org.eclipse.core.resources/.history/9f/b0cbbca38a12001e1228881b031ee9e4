@@ -1,0 +1,56 @@
+package com.hibarnate.test.maping.OneToOneMaping;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Person {
+
+	@Id
+	private int pid;
+	private String pName;
+	private long pCount;
+	
+	@OneToOne
+	private UniqueAuthority adharid;
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public String getpName() {
+		return pName;
+	}
+
+	public void setpName(String pName) {
+		this.pName = pName;
+	}
+
+	public long getpCount() {
+		return pCount;
+	}
+
+	public void setpCount(long pCount) {
+		this.pCount = pCount;
+	}
+
+	public UniqueAuthority getUidia() {
+		return uidia;
+	}
+
+	public void setUidia(UniqueAuthority uidia) {
+		this.uidia = uidia;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "Person [pid=" + pid + ", pName=" + pName + ", pCount=" + pCount + ", uidia=" + uidia + "]";
+	}
+
+}

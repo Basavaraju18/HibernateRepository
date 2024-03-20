@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;LoadingMO&apos;&#x0D;&#x0A;- Original project: &apos;LoadingMO&apos;&#x0D;&#x0A;- Original element: &apos;LoadingMO/src/main/java/com.lazy.OnetoOne.LoadingMO&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lazy.OnetoOne.LoadingMO" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lazy.OnetoOne" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lazy" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1687886379641" subPackages="false" version="1.0"/>
+</session>

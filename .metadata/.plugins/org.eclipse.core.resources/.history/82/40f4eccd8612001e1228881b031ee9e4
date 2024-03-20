@@ -1,0 +1,16 @@
+package com.hibarnate.test.maping.OneToOneMaping;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	UniqueAuthority au=new UniqueAuthority();
+    	au.setAdharid(499231154962L);
+    	
+    	Person p=new Person();
+    }
+}

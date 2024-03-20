@@ -1,0 +1,35 @@
+package com.hibarnate.test.maping.OneToOneMaping;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.hibarnate.test.Product.Product;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	UniqueAuthority au=new UniqueAuthority();
+    	au.setAdharid(123);
+    	au.setAdharcontactnum(4476577L);
+    	
+    	Person p=new Person();
+    	p.setpCount(94464123);
+    	p.setPid(101);
+    	p.setpName("Bass");
+    	
+    	 Configuration cfg= new Configuration().configure().addAnnotatedClass(Person.class).addAnnotatedClass(UniqueAuthority.class);
+     	SessionFactory sf=cfg.buildSessionFactory();
+     	Session session = sf.openSession();
+     	Transaction transaction=session.beginTransaction();
+     	session.save(au);
+     	session.save(p);
+     	transaction.commit();
+    }
+}

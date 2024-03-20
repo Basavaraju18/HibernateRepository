@@ -1,0 +1,32 @@
+package com.hibarnate.test.maping.OneToOneMaping;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class UniqueAuthority {
+	
+	@Id
+	private int adharid;
+	private long  adharcontactnum;
+	
+	public long getAdharid() {
+		return adharid;
+	}
+	public void setAdharid(int adharid) {
+		this.adharid = adharid;
+	}
+	public long getAdharcontactnum() {
+		return adharcontactnum;
+	}
+	public void setAdharcontactnum(long adharcontactnum) {
+		this.adharcontactnum = adharcontactnum;
+	}
+	@Override
+	public String toString() {
+		return "UniqueAuthority [adharid=" + adharid + ", adharcontactnum=" + adharcontactnum + "]";
+	}
+	
+	
+
+}

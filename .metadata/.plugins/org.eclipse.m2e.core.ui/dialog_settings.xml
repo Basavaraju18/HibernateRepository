@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\User\Desktop\Hibarnate\UserManagement\src\main\java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Employee\src\main\java\com\employee\Employee\Employee.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Level1OneToMany\src\main\java\com\L1OtoM\Level1OneToMany\App.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\LoadingMO\src\main\java\com\manytoone\loading\Customer.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Loading\src\main\java\com\onetoone\loading\App.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\ManyToMany\src\main\java\com\Manytomanymaping\ManyToMany\App.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\ManyToMany\src\main\java\hibernate.cfg.xml"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\OneToOneMapping\src\main\java\com\maping\OneToOneMapping\App.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\OneToOneMaping\src\main\java\com\hibarnate\test\maping\OneToOneMaping\Person.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Product\src\main\java\com\hibarnate\test\Product\App.java"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Hibarnate"/>
+			<item value="C:\Users\User\Desktop\Hibarnate\Hibarnate\pom.xml"/>
+			<item value="C:\Users\User\Desktop\Hibarnate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.jsp.OnlineClass"/>
+			<item value="com.jsp.Sping.Demo"/>
+			<item value="com.jsp.User_management"/>
+			<item value="com.spring.UserManagement"/>
+			<item value="com.hibernate.Demo"/>
+			<item value="com.LevelTwoCache.LevelTwoCache2"/>
+			<item value="com.LevelTwoCache.LevelTwoCache"/>
+			<item value="com.L1OtoM.Level1OneToMany"/>
+			<item value="com.L1OtoM.Level1OnetoMany1"/>
+			<item value="com.OnetoMany.Loading.OneToMany"/>
+			<item value="com.lazy.OnetoOne.LoadingMO"/>
+			<item value="com.lazy.OnetoOne.lazyOnetoOne"/>
+			<item value="com.Manytomanymaping.Loading"/>
+			<item value="com.Manytomanymaping.ManyToMany"/>
+			<item value="com.onetomanymaping.OneToManyMaping"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jsp"/>
+			<item value="com.spring"/>
+			<item value="com.hibernate"/>
+			<item value="com.LevelTwoCache"/>
+			<item value="com.L1OtoM"/>
+			<item value="com.OnetoMany"/>
+			<item value="com.lazy.OnetoOne"/>
+			<item value="com.Manytomanymaping"/>
+			<item value="com.onetomanymaping"/>
+			<item value="com.maping"/>
+		</list>
+		<list key="artifactId">
+			<item value="OnlineClass"/>
+			<item value="Sping.Demo"/>
+			<item value="User_management"/>
+			<item value="UserManagement"/>
+			<item value="Demo"/>
+			<item value="LevelTwoCache2"/>
+			<item value="LevelTwoCache"/>
+			<item value="Level1OneToMany"/>
+			<item value="Level1OnetoMany1"/>
+			<item value="Loading.OneToMany"/>
+			<item value="LoadingMO"/>
+			<item value="lazyOnetoOne"/>
+			<item value="Loading"/>
+			<item value="ManyToMany"/>
+			<item value="OneToManyMaping"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
